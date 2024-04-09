@@ -84,7 +84,7 @@ public class NoteAppModel {
 	        	System.out.print("|__");
 	        	System.out.println(f.getName());
 	            File[] mangCon = f.listFiles();
-	            if (mangCon != null) { // Kiểm tra xem có thư mục con hay không
+	            if (mangCon != null) { 
 	                for (File fx : mangCon) {
 	                    printFullDirectory(fx, bac+1);
 	                }
