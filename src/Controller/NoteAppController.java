@@ -27,7 +27,7 @@ public class NoteAppController implements ActionListener {
   
     private void reloadTree() {
         DefaultTreeModel treeModel = (DefaultTreeModel) noteAppView.folderTree.getModel();
-        treeModel.reload(); // Hoặc bạn có thể reload từ node gốc: treeModel.reload(rootNode);
+        treeModel.reload(); 
     }
     public NoteAppController(NoteAppView noteAppView) {
         this.noteAppView = noteAppView;
